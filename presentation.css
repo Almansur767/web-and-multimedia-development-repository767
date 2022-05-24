@@ -1,0 +1,99 @@
+
+           
+           
+h1 {color:rgb(104, 81, 85);
+     font-size: 70px;
+     font-weight: 30px;
+    padding: 200px;
+    position:relative;
+    height:90px; 
+    left:10px;
+    top: -260px;}
+
+
+   
+      .image {
+        position:fixed;
+        top:0;
+         left:0;
+      }
+
+   body {background:rgba(0,0,0,0.7) 
+      url("website cars/The-Best-Movie-Franchises-To-Binge-Watch.jpg");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      background-blend-mode: darken;
+}
+
+.nav-links {
+    text-align: right;
+    
+}
+
+.nav-links ul li{ list-style:none;
+            display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+      }
+
+      .nav-links ul li a{
+   color: rgb(207, 179, 179);
+   text-decoration:underline;
+   font-size: 17px;
+      }
+      
+.nav-links :hover{
+  color: #f00;
+}
+
+.info{
+  width: 90%;
+  color: rgb(21, 99, 99);
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+}
+ .info h2{
+   font-size: 30px;
+   color: rgb(94, 131, 89);
+   font-family: 'Dancing Script', cursive;
+ }
+
+ .info p{
+   font-family: 'Dancing Script', cursive;
+   color: rgb(64, 74, 75);
+  }
+
+  .button{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(66, 150, 228);
+  border: 1px solid gold;
+  padding: 12px 34px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+ .button :hover{
+   border: 1px solid gold;
+   background: rgba(0, 255, 42, 0.596);
+   transition: 1s;
+ }
+
+ .banner{
+   border: 1px solid rgb(101, 91, 110);
+  position: relative;
+    top: 700;
+    left: 0;
+    height: 100%;
+    background: rgba(117, 103, 87, 0.5);
+    color: rgb(180, 192, 147);
+ }
+
+      
