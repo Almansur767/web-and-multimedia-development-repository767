@@ -1,0 +1,94 @@
+
+           
+           
+
+   h1{text-align: center;
+    padding-top: 50px;
+  color: #85d87c;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;}
+
+  .hd2{text-align: center;
+    padding-top: 50px;
+    color: rgb(129, 182, 136);
+    font-size: 30;}
+    
+
+  .hd{text-align:center;
+    padding-top: 30px;
+    color: rgb(9, 158, 9);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+
+
+
+      .image {
+        position:fixed;
+        top: -60px;;
+         left:0;
+      }
+
+   body {background:rgba(0,0,0,0.7) 
+      url("website cars/new.png");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      background-blend-mode: darken;
+}
+
+.nav-links {
+  
+    text-align: right;
+    position:fixed;
+        top:0;
+         right:0;
+    
+}
+
+.nav-links ul li{ list-style:none;
+            display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+      }
+
+      .nav-links ul li a{
+   color:peachpuff;
+   text-decoration:underline;
+   font-size: 17px;
+   position: relative;
+   border-right: 1px solid lightgray;
+  padding: 1rem;
+      }
+
+      ul li:last-of-type {
+        border-right: none;
+      }
+      
+.nav-links :hover{
+  color: rgb(0, 255, 85);
+}
+
+
+ 
+#container{text-align: center;}
+  
+.yes{
+    width: 200px;
+    height: 60px;
+    line-height: 50px;
+    border: 2px solid rgb(28, 160, 61);
+    background: rgb(28, 160, 61);
+    color: white
+  }
+
+  .yes:hover{
+    background: lightgreen;
+    color: rgb(167, 104, 48);
+    transition:.5s;
+  }  
